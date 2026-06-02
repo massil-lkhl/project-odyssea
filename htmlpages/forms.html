@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Odyssea/form</title>
+    <link rel="stylesheet" href="../csspages/styles.css">
+  </head>
+  <body>
+    <header>
+        <div class="logo">Odyssea</div>
+                <div class="navigation_bar">
+           <input type="text" placeholder="where your dreams come true" class="search-input" />
+           <button type="submit" class="search-icon">🔍</button>
+        </div>
+        <nav class="nav-header">
+            <a href="../index.html">Accueil</a>
+            <a href="trips.html">Voyages</a>
+            <a href="login.html">Connexion</a>
+            <a href="forms.html" target="_blank">Inscription</a>
+        </nav>
+    </header>
+    <main>
+        <form class="form-inscription">
+          <h2 class="form-title">Inscription</h2>
+          <div>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div>
+            <label for="confirm-password">Confirm the password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required />
+          </div>
+          <div class="form-button">
+            <button class="btn-primary">Rejoindre l'aventure</button>
+          </div>
+        </form>
+    </main>
+<footer>
+    <p>Copyright © 2024 Odyssea. Tous droits réservés. |
+         <a href="#">Politique de confidentialité</a> | 
+         <a href="#">Conditions d'utilisation</a></p>
+    <p>Nous tenons à rappeller avant tout que Odyssea est un projet étudiant réalisé
+        par Lakehal Massil dans le but de mettre en pratique les compétences acquises durant les formations afin de progresser pour devenir product engineer
+        liste des références :
+        <ul>
+            <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp.org:</a>
+            <ol>
+                <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="_blank">Responsive Web Design</a></li>
+            </ol>
+            </li>
+        </ul>
+    </p>
+</footer>
+  </body>
+</html>

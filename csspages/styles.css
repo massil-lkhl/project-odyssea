@@ -1,0 +1,180 @@
+/* 1. Reset et Police globale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 2. Style du Header (Menu) */
+header {
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0056b3; /* Un bleu "Tech / Voyage" */
+}
+.search-input{
+    width:70%;
+    border-radius:5px;
+    padding:10px;
+    border:1px solid #ccc;
+}
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+.navigation_bar{
+    display:flex;
+    align-items:center;
+    border:none;
+    border-radius:5px;
+    background-color:#e9ecef;
+    padding:5px 10px;
+}
+.search-icon{
+    background:none;
+    border:none;
+    font-size:18px;
+    cursor:pointer;
+    color:#e9ecef;
+}
+.search-input{
+    transition: border-color 0.3s;
+    border:none;
+    background:#e9ecef;
+    width:70%;
+}
+
+.search-input:focus{
+    outline:none;
+    border-color:#0056b3;
+}
+/*--------------------------------------------------*/
+/* style of the inscription form*/
+.form-title{
+    margin-bottom:10px;
+    border-bottom: #004085 solid 2px;
+    padding-bottom: 5px;
+    font: size 24px;;
+    width:100%;
+}
+.form-inscription{
+    border: 1px solid black;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    color: #0056b3;
+}
+.form-button{
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*--------------------------------------------------*/
+/* style of the research form*/
+.form-research{
+    border: 1px solid black;
+    padding: 20px;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    color: #0056b3;
+}
+/*--------------------------------------------------*/
+/*container styling*/
+.container{
+    text-align:left;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    border:#004085 solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    display:flex;
+    flex-direction: column;
+}
+.trip-image{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/*--------------------------------------------------*/
+div{
+    margin-bottom: 20px;
+}
+
+/* 3. Style du contenu principal */
+main {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+main h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+main p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* 4. Le bouton principal */
+.btn-primary {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 115px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #555;
+    border-top: 1px solid #eee;
+}
+.btn-primary:hover {
+    background-color: #004085;
+}
