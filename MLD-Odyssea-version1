@@ -1,4 +1,0 @@
-# Modèle créé le : Thu Jun 04 11:08:53 CEST 2026 
-Clients (ID_Clients_Clients, Nom_Clients, Prénom_Clients, adresse-mail_Clients, Date-naissance-client_Clients, mot-de-passe-client_Clients) 
-Billets-d'avions (ID_voyage_Voyage, date-voyage-départ_Voyage, date-voyage-fin_Voyage, prix_Voyage, cabin_Billets-d'avions, durée-vol_Billets-d'avions, traveler-type_Billets-d'avions) 
-Organiser_ (ID_Clients_Clients, ID_voyage_Voyage, nombre-personne_Voyage, date-organisation, prix-billet_Organiser_, nombre-d'adulte_Organiser_, nombre-d'enfant_Organiser_) 
